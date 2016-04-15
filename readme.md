@@ -14,9 +14,31 @@ npm install --save resolve-from-caller
 
 # Usage
 
+lib/index.js:
+
 ```js
   const resolve = require('resolve-from-caller');
+  console.log(resolve('./a'));
+  //-> a.js
 ```
+
+user-land.js:
+
+```js
+  const lib = require('./lib');
+  
+```
+
+a.js:
+
+```js
+  // anything
+```
+
+
+# Credits
+
+This module begin as a PR to [module-resolve-as-caller](https://github.com/fengb/module-resolve-as-caller).
 
 # License
 
