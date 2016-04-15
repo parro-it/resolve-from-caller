@@ -1,6 +1,6 @@
 {
   "name": "resolve-from-caller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve module paths relative to caller module file.",
   "author": "andrea@parro.it",
   "repository": "parro-it/resolve-from-caller",
@@ -22,5 +22,7 @@
     "ava": "^0.14.0",
     "xo": "^0.14.0"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
